@@ -3,8 +3,12 @@ import requests
 from urllib.parse import urljoin
 
 def download_troll_tweets():
+    # Get parent directory of analysis_code folder
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    parent_dir = os.path.dirname(current_dir)
+    
     # Create directory if it doesn't exist
-    output_dir = "russian_troll_dataset"
+    output_dir = os.path.join(parent_dir, "russian_troll_dataset")
     os.makedirs(output_dir, exist_ok=True)
     
     # Base URL for raw GitHub content
