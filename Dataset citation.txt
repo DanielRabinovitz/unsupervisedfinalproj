@@ -1,0 +1,6 @@
+Taken from:
+https://github.com/fivethirtyeight/russian-troll-tweets/
+
+Source:
+ABC news 538
+Original archived article: https://fivethirtyeight.com/features/why-were-sharing-3-million-russian-troll-tweets/

@@ -1,0 +1,11 @@
+Questions:
+
+1) Can we use emoji patterns to predict malicious and artificial tweets?
+    -> MBA rules for emojis that go together
+    -> Community detection using emojis as edges between tweets
+    -> Emoji-based clustering
+
+2) What are the tweets normally about?
+    -> LDA topic modeling for sentiment analysis (oh fuck this will take forever :)
+    -> PCA/KPCA for topic aggregation
+    -> Link Anlaysis for finding "hub" tweets that disseminate information
