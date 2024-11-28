@@ -1,0 +1,7 @@
+There were 2234282 unique terms (word or emoji = term), filtered to 1060 unique terms using a minimum single-item support of 0.001 (3000+ unique occurences of a term). Without filtering I'd get errors due to the matrix requested to be fed into fpgrowth being larger than my laptop could handle. 
+
+After filtering used the params for this run
+Support: 0.001
+Confidence: 0.1
+Lift distance: 0.2
+on the itemsets

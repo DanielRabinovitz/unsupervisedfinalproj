@@ -9,3 +9,5 @@ Questions:
     -> LDA topic modeling for sentiment analysis (oh fuck this will take forever :)
     -> PCA/KPCA for topic aggregation
     -> Link Anlaysis for finding "hub" tweets that disseminate information
+
+3) How are the malicious links structured and used in tweets?

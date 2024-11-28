@@ -1,0 +1,11 @@
+At 0.0001 support, 0.1 confidence, 0.2 lift I found 4 rules.
+
+The fist rule was an outlier due to data handling; the 2nd unicode is just a color modifier to make the ✊🏿 emoji.
+
+The others were quite interesting because their lift values were absurdly high at:
+
+414 for ✔ -> 😠
+318 for 🚨 -> 😠
+4353 for 💸 -> 💲
+
+The supports for all of these pairs were quite low being at or below 0.00015, indicating fewer than 450 itemset occurences out of over 3 million tweets.
