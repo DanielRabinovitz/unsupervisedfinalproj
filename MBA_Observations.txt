@@ -1,0 +1,11 @@
+We observe that for higher support values (~0.01) we get generic hashtags (like #news, #politics, etc.) which isn’t quite useful for drawing conclusions. Reducing support to 0.005 and then generating the association rules based on the frequent itemsets thus obtained, we could uncover a lot of association rules. Analyzing these rules, we could observe rules that signal collaboration towards manipulating audiences. 
+
+If we observe the top 20 association rules sorted by confidence (association_rules_lift15.csv) we can see that a few of the association rules listed below indicate suspicious activity:
+(#tagderjugend)  ->   (#jugendmitmerkel)
+(#stopthegop)    ->   (#gopdebate) 
+(#brussels)      ->   (#islamkills) 
+(#stopislam)     ->   (#islamkills)
+(#trumptrain)    ->   (#maga)      (MAGA - Make America Great Again)
+
+Especially considering the fact that these tweets were taken from Russian accounts, its suspicious to find high confidence and lift for hashtags regarding politics in America. Also a google search for the hashtags - (#tagderjugend) and (#jugendmitmerkel) reveals that tweets with these hashtags were part of a of a campaign by Russia's Internet Research Agency to disrupt the politics and elections of countries around the world. 
+
